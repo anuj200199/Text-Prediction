@@ -2,7 +2,7 @@
 Predict the next word(s) considering the previous sequence of words.
 
 
-In this project , ihave deveoped 2 methods to predict the next wrod or word(s)
+In this project, I have developed 2 methods to predict the next word(s)
 
 The first method is the Bigram model in which we have paired 2 words together and then calculated the occurence of the pair in the text.
 The second model involves use of Deep Learning technique, that is building an Recurrent Neural Network.
@@ -13,8 +13,8 @@ Method 1: Bi gram Model
 a.) Input the name of file from which you want to train the model. In my project, i have used the file name disk1.txt which is uploaded.
 b.) In order to improve accuracy, we have to perform certain operations on the text such as remove all the colons, commas, semicolons and other insignificant special characters which are of no use while predicting the next word, converting the text to lowercase, etc.
 c.) As the name suggests, the next step is to form pairs of two consecutive words and count the times that these pair is occuring in the whole next.
-d.) The idea is that higher the frequency of a particular pair in the document, higher are the chances of the second word in the pair to be output if the first word is taken as input. euTherefore, we calculate probability of each pair in the document.
-e.) Take user input ans print the next common n words after the input. (In my py file, i have taken n=5).
+d.) The idea is that higher the frequency of a particular pair in the document, higher are the chances of the second word in the pair to be output if the first word is taken as input. Therefore, we calculate probability of each pair in the document.
+e.) Take user input and print the next common n words after the input. (In my py file, i have taken n=5).
 
 
 Method 2: Recurrent Nueral Network: rnn.py file
